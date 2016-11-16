@@ -7,8 +7,8 @@ public class Test {
 	lucru l1 = (x,y)-> x+y;
                     //suprascrierea metodei
 	lucru l2 = new lucru(){
-		public double calcullucru(){
-			
+		public double calcullucru(int x, int y){
+			return 500;
 		}
 	};
 	m((d,e)->d+e,10,20);
