@@ -18,7 +18,7 @@ public class Test {
 	public static void m(lucru l, int a, int b){
 		System.out.println(l.calcullucru(a, b));
 	
-	
+	lucru l3 = new LucruImpl();
 	
 	
 	
