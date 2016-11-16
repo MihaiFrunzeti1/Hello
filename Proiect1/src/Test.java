@@ -5,7 +5,12 @@ public class Test {
 		// vdfgd
 	
 	lucru l1 = (x,y)-> x+y;
-	
+                    //suprascrierea metodei
+	lucru l2 = new lucru(){
+		public double calcullucru(){
+			
+		}
+	};
 	m((d,e)->d+e,10,20);
 	}
 	public static void m(lucru l, int a, int b){
